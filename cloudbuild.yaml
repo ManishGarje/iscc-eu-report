@@ -1,0 +1,57 @@
+steps:
+  # Step 1: Install LangGraph CLI and generate Dockerfile
+  - name: 'python:3.12'
+    entrypoint: 'sh'
+    args: ['-c', 'pip install langgraph-cli && langgraph dockerfile -c langgraph.json Dockerfile']
+
+  # Step 2: Build Docker image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [ 'build', '-t', 'us-central1-docker.pkg.dev/$PROJECT_ID/langgraph-iscc-eu-report/iscc-eu-report-image:latest', '.' ]
+
+  # Step 3: Push Docker image to Artifact Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'us-central1-docker.pkg.dev/$PROJECT_ID/langgraph-iscc-eu-report/iscc-eu-report-image:latest']
+
+  # Step 4: Deploy to Cloud Run with secrets from Secret Manager
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - iscc-eu-report-image
+      - --image
+      - us-central1-docker.pkg.dev/$PROJECT_ID/langgraph-iscc-eu-report/iscc-eu-report-image:latest
+      - --region
+      - us-central1
+      - --platform
+      - managed
+      - --set-secrets
+      - LANGCHAIN_API_KEY=LANGCHAIN_API_KEY:latest
+      - --set-secrets
+      - LANGCHAIN_PROJECT=LANGCHAIN_PROJECT:latest
+      - --set-secrets
+      - LANGSMITH_API_KEY=LANGSMITH_API_KEY:latest
+      - --set-secrets
+      - OPENAI_API_KEY=OPENAI_API_KEY:latest
+      - --set-secrets
+      - REDIS_URI=REDIS_URI:latest
+      - --set-secrets
+      - DATABASE_URI=DATABASE_URI:latest
+      - --port
+      - '8000'
+      - --allow-unauthenticated
+      - --timeout
+      - '1800s'
+      - --memory
+      - 2Gi
+      - --cpu
+      - '2'
+      - --vpc-connector
+      - iscc-eu-report-vpc-con
+
+substitutions:
+  _PROJECT_ID: iscc-eu-report
+
+options:
+  substitution_option: 'ALLOW_LOOSE'
+  logging: CLOUD_LOGGING_ONLY

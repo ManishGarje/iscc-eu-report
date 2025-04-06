@@ -1,0 +1,511 @@
+{
+    "guide":{
+    
+    },
+    "Structured company data": {
+        "CornFarming": {
+          "CornProductiononawet-basis": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "ton per hectare per year"
+          },
+          "MoistureContentweightedaverage": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "%"
+          },
+          "Fractionofcropareaburnedannually": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "hectare burnt per hectare total"
+          },
+          "StrawYield(removedfromthefield)": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg dry matter per hectare per year"
+          },
+          "SoilType": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": ""
+          }
+        },
+        "LiquidFuelsConsumption": {
+          "Diesel": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "liter per hectare per year"
+          },
+          "Gasoline": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "liter per hectare per year"
+          },
+          "Heavyfueloil": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "liter per hectare per year"
+          },
+          "Methanol": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "liter per hectare per year"
+          },
+          "Addanotherliquidfuel": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "liter per hectare per year"
+          }
+        },
+        "GaseousFuelsConsumption": {
+          "LiquifiedPetroleumGas(LPG)": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "MJ per hectare per year"
+          },
+          "NaturalGasonHigherHeatingValue(HHV)basis": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "MJ per hectare per year"
+          },
+          "Addanothergaseousfuel": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": ""
+          }
+        },
+        "SolidFuelsConsumption": {
+          "Hardcoal": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg per hectare per year"
+          },
+          "Lignite": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg per hectare per year"
+          },
+          "Woodchips": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg per hectare per year"
+          },
+          "Woodpellets": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg per hectare per year"
+          },
+          "Addanothersolidfuel": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg per hectare per year"
+          }
+        },
+        "ElectricityConsumption": {
+          "GridElectricity": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kWh per hectare per year"
+          },
+          "Addanotherelectricitysource": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": ""
+          }
+        },
+        "SyntheticNitrogenFertilizersConsumption": {
+          "SyntheticN-fertilizer": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg N per hectare per year"
+          },
+          "Ammoniumnitrate": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg N per hectare per year"
+          },
+          "Ammoniumsulphate": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg N per hectare per year"
+          },
+          "Ammoniumnitratesulphate": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg N per hectare per year"
+          },
+          "Anhydrousammonia": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg N per hectare per year"
+          },
+          "Calciumammoniumnitrate": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg N per hectare per year"
+          },
+          "Calciumnitrate": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg N per hectare per year"
+          },
+          "Urea": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg N per hectare per year"
+          },
+          "Ureaammoniumnitrate": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg N per hectare per year"
+          },
+          "Addanothersyntheticnitrogenfertilizer": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": ""
+          }
+        },
+        "OrganicNitrogenFertilizerConsumption": {
+          "Manure": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg N per hectare per year"
+          },
+          "Biogasdigestate": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg N per hectare per year"
+          },
+          "Addanotherorganicnitrogenfertilizer": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg N per hectare per year"
+          }
+        },
+        "P2O5FertilizersConsumption": {
+          "P2O5fertlizer": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg P2O5 per hectare per year"
+          },
+          "Triplesuperphosphate": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg P2O5 per hectare per year"
+          },
+          "Rockphosphate21%P2O523%SO3": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg P2O5 per hectare per year"
+          },
+          "Monoammoniumphosphate(MAP)11%N52%P2O5": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg P2O5 per hectare per year"
+          },
+          "Diammoniumphosphate(DAP)18%N46%P2O5": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg P2O5 per hectare per year"
+          },
+          "AddanotherP2O5fertilizer": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg P2O5 per hectare per year"
+          }
+        },
+        "K2OFertilizersConsumption": {
+          "K2Ofertlizer": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg K2O per hectare per year"
+          },
+          "MuriateofPotash(MOP)60%K2O": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg K2O per hectare per year"
+          },
+          "AddanotherK2Ofertilizer": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg K2O per hectare per year"
+          }
+        },
+        "CaOFertilizersConsumption": {
+          "CaOfertlizer(calculatedaskgCaCO3)": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg CaCO3 per hectare per year"
+          },
+          "AddanotherCaOfertilizer": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg CaCO3 per hectare per year"
+          }
+        },
+        "OtherFertilizersConsumption": {
+          "NPK15-15-15": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg per hectare per year"
+          },
+          "MgO": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg per hectare per year"
+          },
+          "Sodiumfertiliser": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg per hectare per year"
+          },
+          "Addanotherotherfertilizer": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg per hectare per year"
+          }
+        },
+        "PlantProtectionProductsConsumption": {
+          "Pesticides": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg per hectare per year"
+          },
+          "Addanotherplantprotectionproduct": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": ""
+          }
+        },
+        "SeedingMaterialsConsumption": {
+          "Seeds-maize": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg per hectare per year"
+          },
+          "Addanotherseed": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "kg per hectare per year"
+          }
+        },
+        "InboundTransport": {
+          "RawMaterialTransported": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": ""
+          },
+          "StartingPoint": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": ""
+          },
+          "IntermediateorFinalDestination": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": ""
+          },
+          "TransportMode": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": ""
+          },
+          "FuelType": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": ""
+          },
+          "One-WayDistance": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "km"
+          }
+        },
+        "OutboundTransport": {
+          "ProductTransported": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": ""
+          },
+          "StartingPoint": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": ""
+          },
+          "IntermediateorFinalDestination": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": ""
+          },
+          "TransportMode": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": ""
+          },
+          "Fuel": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": ""
+          },
+          "One-WayDistance": {
+            "value": "",
+            "reference": "",
+            "comments": "",
+            "unit": "km"
+          }
+        }
+      },
+    "emissionData":{
+        
+            "ghgEmissionsPerDryTonCorn": {
+              "cultivationEmission": {
+                "carbonDioxide": 75.71,
+                "methane": 0.07,
+                "nitrousOxide": 0.25,
+                "ghgCO2e": 152.63
+              },
+              "liquidFuels": {
+                "total": { "carbonDioxide": 24.45, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 24.45 },
+                "diesel": { "carbonDioxide": 8.02, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 8.02 },
+                "gasoline": { "carbonDioxide": 7.87, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 7.87 },
+                "heavyFuelOil": { "carbonDioxide": 7.95, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 7.95 },
+                "methanol": { "carbonDioxide": 0.60, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.60 }
+              },
+              "gaseousFuels": {
+                "total": { "carbonDioxide": 0.21, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.21 },
+                "lpg": { "carbonDioxide": 0.13, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.13 },
+                "naturalGas": { "carbonDioxide": 0.08, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.08 }
+              },
+              "solidFuels": {
+                "total": { "carbonDioxide": 1.86, "methane": 0.01, "nitrousOxide": 0.0, "ghgCO2e": 1.99 },
+                "hardCoal": { "carbonDioxide": 1.33, "methane": 0.01, "nitrousOxide": 0.0, "ghgCO2e": 1.46 },
+                "lignite": { "carbonDioxide": 0.53, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.53 },
+                "woodChips": { "carbonDioxide": 0.0, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.0 },
+                "woodPellets": { "carbonDioxide": 0.0, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.0 }
+              },
+              "electricity": {
+                "total": { "carbonDioxide": 0.0, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.0 }
+              },
+              "syntheticNitrogenFertilizers": {
+                "total": { "carbonDioxide": 6.90, "methane": 0.02, "nitrousOxide": 0.0, "ghgCO2e": 8.68 },
+                "syntheticNFertilizer": { "carbonDioxide": 1.14, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 1.34 },
+                "ammoniumNitrate": { "carbonDioxide": 0.52, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.68 },
+                "ammoniumSulphate": { "carbonDioxide": 0.50, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.53 },
+                "ammoniumNitrateSulphate": { "carbonDioxide": 0.50, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.62 },
+                "anhydrousAmmonia": { "carbonDioxide": 1.04, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 1.11 },
+                "calciumAmmoniumNitrate": { "carbonDioxide": 1.12, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 1.44 },
+                "calciumNitrate": { "carbonDioxide": 1.04, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 1.71 },
+                "urea": { "carbonDioxide": 0.17, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.19 },
+                "ureaAmmoniumNitrate": { "carbonDioxide": 0.86, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 1.06 }
+              },
+              "organicNitrogenFertilizers": {
+                "total": { "carbonDioxide": 0.0, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.0 },
+                "manure": { "carbonDioxide": 0.0, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.0 },
+                "biogasDigestate": { "carbonDioxide": 0.0, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.0 }
+              },
+              "p2o5Fertilizers": {
+                "total": { "carbonDioxide": 2.43, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 2.54 },
+                "p2o5Fertilizer": { "carbonDioxide": 0.64, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.64 },
+                "tripleSuperphosphate": { "carbonDioxide": 0.10, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.11 },
+                "rockPhosphate": { "carbonDioxide": 0.03, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.03 },
+                "monoAmmoniumPhosphate": { "carbonDioxide": 0.38, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.40 },
+                "diAmmoniumPhosphate": { "carbonDioxide": 1.29, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 1.37 }
+              },
+              "k2oFertilizers": {
+                "total": { "carbonDioxide": 0.20, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.20 },
+                "k2oFertilizer": { "carbonDioxide": 0.08, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.08 },
+                "muriateOfPotash": { "carbonDioxide": 0.12, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.12 }
+              },
+              "caoFertilizers": {
+                "total": { "carbonDioxide": 0.23, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.24 },
+                "caoFertilizer": { "carbonDioxide": 0.23, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.24 }
+              },
+              "otherFertilizers": {
+                "total": { "carbonDioxide": 14.34, "methane": 0.02, "nitrousOxide": 0.0, "ghgCO2e": 15.98 },
+                "npk151515": { "carbonDioxide": 9.19, "methane": 0.02, "nitrousOxide": 0.0, "ghgCO2e": 10.82 },
+                "mgo": { "carbonDioxide": 1.66, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 1.66 },
+                "sodiumFertiliser": { "carbonDioxide": 3.49, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 3.49 }
+              },
+              "plantProtectionProduct": {
+                "total": { "carbonDioxide": 24.18, "methane": 0.03, "nitrousOxide": 0.0, "ghgCO2e": 25.91 },
+                "pesticides": { "carbonDioxide": 24.18, "methane": 0.03, "nitrousOxide": 0.0, "ghgCO2e": 25.91 }
+              },
+              "seedingMaterial": {
+                "total": { "carbonDioxide": 0.41, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.67 },
+                "seedsMaize": { "carbonDioxide": 0.41, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.67 }
+              },
+              "neutralizationEmission": {
+                "total": { "carbonDioxide": 0.50, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.50 },
+                "netEmission": { "carbonDioxide": 0.50, "methane": 0.0, "nitrousOxide": 0.0, "ghgCO2e": 0.50 }
+              },
+              "fieldN2oEmission": {
+                "total": { "carbonDioxide": 0.0, "methane": 0.0, "nitrousOxide": 0.24, "ghgCO2e": 71.27 },
+                "directAndIndirect": { "carbonDioxide": 0.0, "methane": 0.0, "nitrousOxide": 0.24, "ghgCO2e": 71.27 }
+              }
+            }
+          
+    }
+}

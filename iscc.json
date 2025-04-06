@@ -1,0 +1,139 @@
+{
+    "Guide": {
+        "about": "This tool automatically calculates the greenhouse gas (GHG) intensity of corn as a biomass feedstock for producing transportation fuels according to the requirements of ISCC EU  and EU RED II regulation."
+    },
+    "General Information and data preparation": {
+        "general information": {
+            "Analysis Period": " 1 year "
+        },
+        "Farm description": {
+            "name": " Manish Corn Farm",
+            "location": " California, USA "
+        },
+        "Project Description": {
+            "brief": " This is a corn farm and we need to grow best organic corn "
+        }
+    },
+    "Company specific data": {
+        "Yeild": {
+            "Corn Production": {
+                "Amount": "12",
+                "Unit": "ton per hectare per year",
+                "Source": "enter source of input data",
+                "Notes": "AI reasoning"
+            },
+            "Moisture Content": {
+                "Amount": "15%",
+                "Unit": "%",
+                "Source": "enter source of input data",
+                "Notes": "add any notes"
+            },
+            "Fraction of crop area burnt annually": {
+                "Amount": "0",
+                "Unit": "hectare burnt per hectare total",
+                "Source": "enter source of input data",
+                "Notes": "add any notes"
+            },
+            "Straw yield (removed from the yield)": {
+                "Amount": "0",
+                "Unit": "kg dry matter per hectare per year",
+                "Source": "enter source of input data",
+                "Notes": "add any notes"
+            },
+            "Soil Type acidic or basic": {
+                "Amount": "acidic ",
+                "Unit": "N/A",
+                "Source": "enter source of input data",
+                "Notes": "add any notes"
+            }
+        },
+        "Liquid Fuel Consumption": {
+            "Diesel": {
+                "Amount": "12",
+                "Unit": "liter per hectare per year",
+                "Source": "enter source of input data",
+                "Notes": "add any notes"
+            },
+            "Gasoline": {
+                "Amount": "24",
+                "Unit": "liter per hectare per year",
+                "Source": "enter source of input data",
+                "Notes": "add any notes"
+            },
+            "Heavy fuel oil": {
+                "Amount": "2300%",
+                "Unit": "liter per hectare per year",
+                "Source": "enter source of input data",
+                "Notes": "add any notes"
+            },
+            "Methanol": {
+                "Amount": "4",
+                "Unit": "liter per hectare per year",
+                "Source": "enter source of input data",
+                "Notes": "add any notes"
+            },
+            "Straw yield (removed from the yield)": {
+                "Amount": "0",
+                "Unit": "kg dry matter per hectare per year",
+                "Source": "enter source of input data",
+                "Notes": "add any notes"
+            },
+            "Soil Type acidic or basic": {
+                "Amount": "acidic ",
+                "Unit": "N/A",
+                "Source": "enter source of input data",
+                "Notes": "add any notes"
+            }
+        },
+        "Gaseous Fuels Consumption": {
+            "LPG": "20 MJ per hectare per year",
+            "Natural Gas (HHV)": "12 MJ per hectare per year"
+        },
+        "Solid Fuels Consumption": {
+            "Hard coal": " 5 kg per hectare per year",
+            "Liginite": "5 kg per hectare per year",
+            "wood chip": "7 kg per hectare per year",
+            "wood pellets": "2 kg per hectare per year"
+        },
+        "Electricity": {
+            "Grid Electricity ": "0 kWh per hectare per year"
+        },
+        "Synthetic Nitrogen Fertilizers Consumption ": {},
+        "": {}
+    },
+    "Emission": {
+        "Cultivation Emission": {
+            "Liquid Fluids": {
+                "Diesel": {
+                    "CO2": "24.45 KG",
+                    "CH4": "0",
+                    "N2O": "0",
+                    "CO2e": "24.45"
+                },
+                "Gasoline": {
+                    "CO2": "24.45 KG",
+                    "CH4": "0",
+                    "N2O": "0",
+                    "CO2e": "24.45"
+                },
+                "Heavy Fuel Oil": {
+                    "CO2": "24.45 KG",
+                    "CH4": "0",
+                    "N2O": "0",
+                    "CO2e": "24.45"
+                },
+                "Methanol": {
+                    "CO2": "24.45 KG",
+                    "CH4": "0",
+                    "N2O": "0",
+                    "CO2e": "24.45"
+                }
+            },
+            "": {
+                "": {}
+            }
+        }
+    },
+    "Farming N2O emission": {},
+    "Acidification and lining emission": {}
+}
