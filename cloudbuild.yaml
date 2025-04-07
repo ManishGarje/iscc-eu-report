@@ -37,7 +37,7 @@ steps:
       - '--platform'
       - 'managed'
       - '--set-secrets'
-      - 'LANGSMITH_API_KEY=LANGCHAIN_API_KEY:latest'
+      - 'LANGSMITH_API_KEY=LANGSMITH_API_KEY:latest'
       - '--set-secrets'
       - 'OPENAI_API_KEY=OPENAI_API_KEY:latest'
       - '--port'
