@@ -7,7 +7,7 @@ steps:
       - |
         pip install langgraph-cli && \
         langgraph dockerfile -c langgraph.json Dockerfile
-    secretEnv: ['LANGSMITH_API_KEY', 'OPENAI_API_KEY']
+    secretEnv: ['LANGSMITH_API_KEY', 'OPENAI_API_KEY','DATABASE_URI','REDIS_URI']
 
   # Step 2: Build Docker image
   - name: 'gcr.io/cloud-builders/docker'
@@ -40,6 +40,10 @@ steps:
       - 'LANGSMITH_API_KEY=LANGSMITH_API_KEY:latest'
       - '--set-secrets'
       - 'OPENAI_API_KEY=OPENAI_API_KEY:latest'
+      - '--set-secrets'
+      - 'REDIS_URI=REDIS_URI:latest'
+      - '--set-secrets'
+      - 'DATABASE_URI=DATABASE_URI:latest'
       - '--port'
       - '8000'
       - '--allow-unauthenticated'
@@ -58,6 +62,10 @@ availableSecrets:
       env: 'LANGSMITH_API_KEY'
     - versionName: projects/$PROJECT_ID/secrets/OPENAI_API_KEY/versions/latest
       env: 'OPENAI_API_KEY'
+    - versionName: projects/$PROJECT_ID/secrets/DATABASE_URI/versions/latest
+      env: 'DATABASE_URI'
+    - versionName: projects/$PROJECT_ID/secrets/REDIS_URI/versions/latest
+      env: 'REDIS_URI'
 
 substitutions:
   _PROJECT_ID: 'iscc-eu-report'
